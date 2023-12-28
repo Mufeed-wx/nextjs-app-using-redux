@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* <div className={sty.todo_container}>
+      <div className={sty.todo_container}>
         <div className={sty.todo_input_box}>
           <Form />
         </div>
         <div className={sty.todo_display_box}>
           <Table />
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
